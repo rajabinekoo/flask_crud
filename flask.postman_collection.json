@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "1b42b203-7e27-4aea-bb91-f7e3680172f4",
+		"_postman_id": "a85a783e-4f7c-4a9c-85ba-696f75a5439a",
 		"name": "flask",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "11395158"
@@ -12,7 +12,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:5000/api/v1/todo",
+					"raw": "http://127.0.0.1:5000/api/todo",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -23,7 +23,6 @@
 					"port": "5000",
 					"path": [
 						"api",
-						"v1",
 						"todo"
 					]
 				}
@@ -36,7 +35,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:5000/api/v1/todo/2",
+					"raw": "http://127.0.0.1:5000/api/todo/2",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -47,7 +46,6 @@
 					"port": "5000",
 					"path": [
 						"api",
-						"v1",
 						"todo",
 						"2"
 					]
@@ -70,7 +68,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:5000/api/v1/todo",
+					"raw": "http://127.0.0.1:5000/api/todo",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -81,7 +79,6 @@
 					"port": "5000",
 					"path": [
 						"api",
-						"v1",
 						"todo"
 					]
 				}
@@ -103,7 +100,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:5000/api/v1/todo/2",
+					"raw": "http://127.0.0.1:5000/api/todo/2",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -114,7 +111,6 @@
 					"port": "5000",
 					"path": [
 						"api",
-						"v1",
 						"todo",
 						"2"
 					]
@@ -128,7 +124,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:5000/api/v1/todo/1",
+					"raw": "http://127.0.0.1:5000/api/todo/1",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -139,7 +135,6 @@
 					"port": "5000",
 					"path": [
 						"api",
-						"v1",
 						"todo",
 						"1"
 					]
